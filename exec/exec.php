@@ -33,7 +33,7 @@
         <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
         <script src="js/jquery-git2.js"></script>
 
-        <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
         <!-- Custom Theme files -->
@@ -45,14 +45,14 @@
         <!--Google Fonts-->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
         
-        <link href="./style/css/bootstrap.css" rel="stylesheet">
-        <link href="./style/css/customhasil.css" rel="stylesheet">
-        <link href="./style/css/coderay.css" rel="stylesheet">
+        <link href="style/css/bootstrap.css" rel="stylesheet">
+        <link href="style/css/customhasil.css" rel="stylesheet">
+        <link href="style/css/coderay.css" rel="stylesheet">
         <!--<link href="/css/grid.css" rel="stylesheet">-->
 
-        <script type="text/javascript" src="./style/js/jquery.js"></script>
-        <script type="text/javascript" src="./style/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="./style/js/modernizr-latest.js"></script>
+        <script type="text/javascript" src="style/js/jquery.js"></script>
+        <script type="text/javascript" src="style/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="style/js/modernizr-latest.js"></script>
 
     </head>
 
