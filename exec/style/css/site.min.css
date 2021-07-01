@@ -1,0 +1,198 @@
+#searchBoxWrapper {
+  background-image: url(../img/header_bg.png);
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 20px;
+  padding: 25px 0 55px 0;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+#serpLogo {
+  float: left;
+  margin: 0;
+  clear: both;
+  padding-left: 25px;
+}
+/* line 23, d:\jenkins\workspace\InfoSpace Csr (master)\Infospace\content\css\topserpbanner.less */
+#serpLogo img {
+  max-height: 98px;
+  max-width: 166px;
+}
+/* line 29, d:\jenkins\workspace\InfoSpace Csr (master)\Infospace\content\css\topserpbanner.less */
+a#serpLogo,
+a#headerLogo {
+  border: none;
+  text-decoration: none;
+}
+
+#topSearchBox {
+  overflow: hidden;
+  float: left;
+  height: 62px;
+  margin: 0 0 0 35px;
+  /*This margin will vary depending on how much padding is on the inside of the input[type="text"] because Best Practices indicates that the query in the search box should align with the text on the page*/
+
+  width: 750px;
+}
+
+#topMainBanner #topSearchBox {
+  margin: 30px 0 0 11px;
+}
+
+.searchBoxInputWrapper,
+.searchBoxButtonWrapper {
+  float: left;
+  vertical-align: top;
+}
+/* line 15, d:\jenkins\workspace\InfoSpace Csr (master)\Infospace\content\css\searchbox.less */
+.searchBoxButtonWrapper .searchButton {
+  height: 28px;
+  width: 69px;
+}
+/* line 20, d:\jenkins\workspace\InfoSpace Csr (master)\Infospace\content\css\searchbox.less */
+.searchButton {
+  background-color: #333333;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #20538D;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+/* line 35, d:\jenkins\workspace\InfoSpace Csr (master)\Infospace\content\css\searchbox.less */
+.searchBoxInput {
+  padding: 0;
+  margin: 0;
+  height: 28px;
+  clear: none;
+  overflow: hidden;
+  width: 700px;
+}
+/* line 44, d:\jenkins\workspace\InfoSpace Csr (master)\Infospace\content\css\searchbox.less */
+input[type="submit"] {
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  text-align: center;
+  padding: 2px 8px;
+  margin: 0;
+  cursor: pointer;
+}
+/* line 56, d:\jenkins\workspace\InfoSpace Csr (master)\Infospace\content\css\searchbox.less */
+input[type="text"] {
+  padding: 3px 10px;
+  font-size: 1.6em;
+  width: 451px;
+  vertical-align: top;
+  border: 1px solid #595959;
+  line-height: 19px;
+  height: 20px;
+  float: left;
+}
+/* line 67, d:\jenkins\workspace\InfoSpace Csr (master)\Infospace\content\css\searchbox.less */
+input.placeholder {
+  color: #AAA;
+}
+/* line 71, d:\jenkins\workspace\InfoSpace Csr (master)\Infospace\content\css\searchbox.less */
+input.searchBoxTextInput.localSearchBoxTextInput,
+#bottomSearchTextBox.localSearchBoxTextInput {
+  width: 232px;
+}
+/* line 76, d:\jenkins\workspace\InfoSpace Csr (master)\Infospace\content\css\searchbox.less */
+.searchBoxTextInput,
+.searchBoxLocationInput {
+  font-size: 1.6em;
+}
+/* line 81, d:\jenkins\workspace\InfoSpace Csr (master)\Infospace\content\css\searchbox.less */
+input.localSearchBoxTextInput,
+input.whitePagesSearchBoxTextInput {
+  font-size: 1.6em;
+  width: 114px;
+}
+/* line 87, d:\jenkins\workspace\InfoSpace Csr (master)\Infospace\content\css\searchbox.less */
+input.searchBoxLocationInput {
+  width: 192px;
+}
+
+.advancedSearchPane .searchBoxInput {
+  overflow: hidden;
+  background-color: #D4D4D4;
+  width: 620px;
+  height: 168px;
+  padding: 0;
+  margin: 0;
+}
+
+#topMainBanner .searchBoxInputWrapper {
+  height: 34px;
+}
+/* line 72, d:\jenkins\workspace\InfoSpace Csr (master)\Infospace\content\css\bodyhome.less */
+#topMainBanner .searchBoxButtonWrapper {
+  height: 34px;
+  max-width: 133px;
+}
+/* line 75, d:\jenkins\workspace\InfoSpace Csr (master)\Infospace\content\css\bodyhome.less */
+#topMainBanner .searchBoxButtonWrapper .searchButton {
+  height: 34px;
+}
+/* line 79, d:\jenkins\workspace\InfoSpace Csr (master)\Infospace\content\css\bodyhome.less */
+#topMainBanner .searchBoxInput {
+  height: 34px;
+  display: block;
+  clear: both;
+}
+/* line 84, d:\jenkins\workspace\InfoSpace Csr (master)\Infospace\content\css\bodyhome.less */
+#topMainBanner input[type="text"] {
+  width: 584px;
+  height: 26px;
+  float: left;
+  font-size: 1.8em;
+  line-height: 27px;
+  font-weight: normal;
+}
+
+
+/* line 317, d:\jenkins\workspace\InfoSpace Csr (master)\Infospace\content\css\bodyhome.less */
+#homePane .searchBoxInput {
+  width: 490px;
+  clear: left;
+  height: auto;
+  margin: 0px;
+  overflow: hidden;
+  padding: 0;
+}
+/* line 326, d:\jenkins\workspace\InfoSpace Csr (master)\Infospace\content\css\bodyhome.less */
+.bodyHome .searchBoxInputWrapper {
+  background: none;
+  float: left;
+  overflow: hidden;
+  width: 395px;
+  z-index: 3;
+}
+/* line 334, d:\jenkins\workspace\InfoSpace Csr (master)\Infospace\content\css\bodyhome.less */
+.bodyHome .searchBoxInputPane {
+  overflow: hidden;
+}
+/* line 338, d:\jenkins\workspace\InfoSpace Csr (master)\Infospace\content\css\bodyhome.less */
+.bodyHome .searchBoxButtonWrapper {
+  float: left;
+}
+/* line 342, d:\jenkins\workspace\InfoSpace Csr (master)\Infospace\content\css\bodyhome.less */
+.bodyHome .searchBoxInputWrapper input[type="text"] {
+  margin-top: 10px;
+  font-size: 1.6em;
+  font-weight: 400;
+  width: 369px;
+  border: none;
+}
+/* line 350, d:\jenkins\workspace\InfoSpace Csr (master)\Infospace\content\css\bodyhome.less */
+.bodyHome #topWPSearchForm .searchBoxInputWrapper {
+  height: auto;
+}
